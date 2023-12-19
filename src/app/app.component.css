@@ -1,0 +1,66 @@
+/* Application-wide Styles */
+h1 {
+  color:  #fda403;
+  font-family: "Raleway", sans-serif;
+  font-weight: 1000;
+  font-size: 40px;
+}
+h2, h3 {
+  color: #c41010;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #c41010;
+  font-family: Cambria, Georgia, serif;
+}
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* AppComponent's private CSS styles */
+h1 {
+margin-bottom: 0;
+}
+nav a {
+padding: 1rem;
+text-decoration: none;
+margin-top: 10px;
+display: inline-block;
+background-color: rgb(16, 72, 99);
+color: white;
+border-radius: 4px;
+}
+
+nav a:hover {
+color: black;
+background-color:  #fda403;
+}
+nav a:active {
+background-color: black;
+}
